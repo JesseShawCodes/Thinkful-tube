@@ -15,7 +15,7 @@ function getDataFromApi(searchTerm, callback) {
 
 function renderResult(result) {
   return `
-    <div><a href='http://www.youtube.com/watch?v=${result.id.videoId}' target='_blank'><img src='${result.snippet.thumbnails.high.url}'></a><div><p>${result.snippet.title}</p></div></div>
+    <div><a href='http://www.youtube.com/watch?v=${result.id.videoId}' target='_blank'><img src='${result.snippet.thumbnails.high.url}' alt="video thumbnail"></a><div><p>${result.snippet.title}</p></div></div>
     `;
 }
 
