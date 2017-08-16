@@ -8,8 +8,6 @@ function getDataFromApi(searchTerm, callback) {
     key: API_KEY,
     viewCount: "viewCount"
   }
-  $.getJSON(YOUTUBE_SEARCH_URL, query, callback);
-    console.log(data);
 }
 
 
