@@ -20,6 +20,7 @@ input {
     height: 40px;
     width: 200px;
     border: none;
+    font-size: 20px;
 }
 
 button {
